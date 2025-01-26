@@ -1,0 +1,63 @@
+html, body { 
+    margin: 0; 
+    padding: 25px; 
+    background-color: #201d1d;
+    color: azure;
+    font-family: Arial, sans-serif; /* Added a default font */
+}
+
+/* Centered content using proper alignment */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin: 0; /* Removed default margin */
+}
+
+#name {
+    text-align: center;
+    color: rgb(155, 75, 75);
+}
+
+/* Removed unnecessary class `.img` and updated to `img` */
+img {
+    width: 250px;
+    float: right;
+    margin: 0 0 25px 25px; /* Added margin for spacing */
+}
+
+p {
+    max-width: 600px; /* Set a reasonable width for text blocks */
+    margin: 0 auto; /* Center-align the paragraph block */
+    padding: 25px;
+    color: azure;
+    text-align: justify; /* Better readability */
+}
+
+h2 {
+    margin: 25px; /* Changed padding to margin */
+    color: rgb(205, 149, 149);
+}
+
+/* Styled button for better appearance */
+button {
+    width: 300px;
+    padding: 10px; /* Added padding for better usability */
+    margin: 10px auto; /* Center-align the button */
+    display: block; /* Ensures the button takes a full block */
+    background-color: rgb(75, 75, 155); /* Added background color */
+    color: white; /* Button text color */
+    border: none; /* Removed default border */
+    border-radius: 5px; /* Rounded edges for a modern look */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically (if needed) */
+    height: 100vh; /* Full height for centering within the viewport */
+}
+button:hover {
+    background-color: rgb(55, 55, 135); /* Slight color change on hover */
+}
